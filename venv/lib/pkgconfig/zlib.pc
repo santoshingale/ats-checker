@@ -1,0 +1,13 @@
+prefix=/Users/santoshingale/frontend/ats/venv
+exec_prefix=/Users/santoshingale/frontend/ats/venv
+libdir=/Users/santoshingale/frontend/ats/venv/lib
+sharedlibdir=/Users/santoshingale/frontend/ats/venv/lib
+includedir=/Users/santoshingale/frontend/ats/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
